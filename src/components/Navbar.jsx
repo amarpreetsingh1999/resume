@@ -5,11 +5,11 @@ import { Link } from 'react-router-dom'
 import { RiHome2Fill } from "react-icons/ri";
 
 const navigation = [
-    { name: 'Education', to: '/education' },
-    { name: 'Experience', to: '/experience' },
-    { name: 'Skills', to: '/skills' },
-    { name: 'Projects', to: '/projects' },
-    { name: 'Activities', to: '/activities' },
+    { name: 'Education', to: '/resume/education' },
+    { name: 'Experience', to: '/resume/experience' },
+    { name: 'Skills', to: '/resume/skills' },
+    { name: 'Projects', to: '/resume/projects' },
+    { name: 'Activities', to: '/resume/activities' },
 ]
 
 const Navbar = () => {
@@ -19,7 +19,7 @@ const Navbar = () => {
     <header className="absolute sticky top-0 z-50 bg-gradient-to-r from-slate-900 to-slate-700">
                 <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
                     <div className="flex lg:flex-1">
-                        <Link to="/" className="-m-1.5 p-5 scroll-smooth">
+                        <Link to="/resume" className="-m-1.5 p-5 scroll-smooth">
                             {/* <span className="sr-only">Your Company</span> */}
                             <RiHome2Fill className='bg-slate-50 rounded hover:bg-orange-500'/>
                         </Link>
