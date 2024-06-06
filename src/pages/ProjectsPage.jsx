@@ -10,7 +10,7 @@ const ProjectsPage = () => {
       <div class="flex flex-wrap mt-10 max-w-sm mx-auto">
         <div class="relative group">
           <img
-            src="/personalWebsite.png "
+            src="personalWebsite.png "
             alt="Photo by Sébastien Goldberg on Unsplash" class="w-full rounded shadow-xl hover:shadow-2xl" />
           <div
             className="flex justify-center items-center opacity-0 bg-gradient-to-t from-gray-800 via-gray-800 to-opacity-30 group-hover:opacity-50 absolute top-0 left-0 h-full w-full">
@@ -27,7 +27,7 @@ const ProjectsPage = () => {
         <div className="mt-10 max-w-sm mx-auto">
           <div className="relative group">
             <img
-              src="/imagerec.jpg"
+              src="imagerec.jpg"
               alt="Photo by Sébastien Goldberg on Unsplash" className="w-full rounded shadow-xl hover:shadow-2xl" />
             <div
               className="flex justify-center items-center opacity-0 bg-gradient-to-t from-gray-800 via-gray-800 to-opacity-30 group-hover:opacity-50 absolute top-0 left-0 h-full w-full">
@@ -44,7 +44,7 @@ const ProjectsPage = () => {
         <div className="mt-10 max-w-sm mx-auto">
           <div class="relative group">
             <img
-              src="/youtube.jpg"
+              src="youtube.jpg"
               alt="Photo by Sébastien Goldberg on Unsplash" class="w-full rounded shadow-xl hover:shadow-2xl" />
             <div
               class="flex justify-center items-center opacity-0 bg-gradient-to-t from-gray-800 via-gray-800 to-opacity-30 group-hover:opacity-50 absolute top-0 left-0 h-full w-full">
@@ -52,7 +52,7 @@ const ProjectsPage = () => {
             <div class="absolute top-0 left-0 w-full h-full flex justify-center items-center opacity-0 hover:opacity-100">
               <div class="flex-row text-center">
               <h1 className="text-gray-50 font-bold text-lg">Youtube Clone</h1>
-              <Link to='/projects' className='text-gray-200 font-medium text-sm'>In Development</Link>
+              <Link to='/resume/projects' className='text-gray-200 font-medium text-sm'>In Development</Link>
               </div>
             </div>
           </div>
@@ -61,7 +61,7 @@ const ProjectsPage = () => {
         <div class="mt-10 max-w-sm mx-auto mb-10">
           <div class="relative group">
             <img
-              src="/workinprogress.jpg"
+              src="workinprogress.jpg"
               alt="Photo by Sébastien Goldberg on Unsplash" class="w-full rounded shadow-xl hover:shadow-2xl" />
             <div
               class="flex justify-center items-center opacity-0 bg-gradient-to-t from-gray-800 via-gray-800 to-opacity-30 group-hover:opacity-50 absolute top-0 left-0 h-full w-full">
@@ -69,7 +69,7 @@ const ProjectsPage = () => {
             <div class="absolute top-0 left-0 w-full h-full flex justify-center items-center opacity-0 hover:opacity-100">
               <div class="flex-row text-center">
               <h1 className="text-gray-50 font-bold text-lg">Dev Mechanical Services</h1>
-              <Link to='/projects' className='text-gray-200 font-medium text-sm'>In Development</Link>
+              <Link to='/resume/projects' className='text-gray-200 font-medium text-sm'>In Development</Link>
               </div>
             </div>
           </div>
