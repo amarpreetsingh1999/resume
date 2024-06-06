@@ -12,7 +12,7 @@ import ActivitiesPage from './pages/ActivitiesPage'
 const App = () => {
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path='/' element={<MainLayout />}>
+      <Route path='/resume' element={<MainLayout />}>
         <Route index element={<HomePage />} />
         <Route path='/education' element={<EducationPage />} />
         <Route path='/experience' element={<ExperiencePage />} />
