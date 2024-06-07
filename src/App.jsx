@@ -12,13 +12,13 @@ import ActivitiesPage from './pages/ActivitiesPage'
 const App = () => {
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path='/resume' element={<MainLayout />}>
+      <Route path='/' element={<MainLayout />}>
         <Route index element={<HomePage />} />
-        <Route path='/resume/education' element={<EducationPage />} />
-        <Route path='/resume/experience' element={<ExperiencePage />} />
-        <Route path='/resume/skills' element={<SkillsPage />} />
-        <Route path='/resume/projects' element={<ProjectsPage />} />
-        <Route path='/resume/activities' element={<ActivitiesPage />} />
+        <Route path='/education' element={<EducationPage />} />
+        <Route path='/experience' element={<ExperiencePage />} />
+        <Route path='/skills' element={<SkillsPage />} />
+        <Route path='/projects' element={<ProjectsPage />} />
+        <Route path='/activities' element={<ActivitiesPage />} />
         <Route path='*' element={<NotFoundPage />} />
       </Route>
     )
