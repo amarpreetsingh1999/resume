@@ -1,8 +1,9 @@
 import { useState } from 'react'
-import { Dialog } from '@headlessui/react'
+// import { DialogPanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { Link } from 'react-router-dom'
 import { RiHome2Fill } from "react-icons/ri";
+import { Dialog, DialogPanel } from '@headlessui/react';
 
 const navigation = [
     { name: 'Education', to: '/education' },
