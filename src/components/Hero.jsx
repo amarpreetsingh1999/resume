@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { FaCoffee, FaLaptopCode } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
 
@@ -46,6 +47,7 @@ const Hero = () => {
                         <p className="mt-6 text-lg leading-8 text-gray-600 font-bold">
                             [Feel free to click the links at the top to know more about me!!!]
                         </p>
+                        <Link to='https://github.com/amarpreetsingh1999' target="_blank" rel="noopener noreferrer" className='mt-6 text-lg leading-8 text-gray-600 font-bold hover:text-orange-500'>Click Here for My Github</Link>
 
                         {/* <p className="mt-6 text-lg leading-8 text-gray-600">
                             "It works on my machine!!!!"

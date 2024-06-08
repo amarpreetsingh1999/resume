@@ -18,7 +18,7 @@ const ProjectsPage = () => {
           <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center opacity-0 hover:opacity-100">
             <div className="flex-row text-center">
               <h1 className="text-gray-50 font-bold text-lg">This website</h1>
-              <Link className='text-gray-200 font-medium text-sm'>Source Code</Link>
+              <Link to='https://github.com/amarpreetsingh1999/resume'  target="_blank" rel="noopener noreferrer" className='text-gray-200 font-medium text-sm'>Source Code</Link>
             </div>
           </div>
           {/* </div> */}
